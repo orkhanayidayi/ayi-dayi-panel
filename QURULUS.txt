@@ -1,0 +1,21 @@
+AYI DAYI — iPhone şəxsi satış paneli
+
+Fayllar:
+- index.html: tətbiq
+- manifest.webmanifest: ana ekrana əlavə olunma məlumatları
+- sw.js: offline keşləmə
+- icon-192.png / icon-512.png: tətbiq ikonları
+
+iPhone-da quraşdırma:
+1. Bu qovluğun bütün fayllarını HTTPS dəstəkləyən statik hosta yerləşdir (məsələn, GitHub Pages).
+2. iPhone-da Safari ilə yayımlanmış HTTPS ünvanını aç.
+3. Paylaş (Share) -> Add to Home Screen (Ana ekrana əlavə et).
+4. Tətbiqi ana ekrandakı ikonla aç. İlk açılışda internet bağlantısı lazımdır; sonra keşlənmiş versiya offline işləyir.
+
+Məlumatların saxlanması:
+- Satış, xərc, sifariş və modellər serverə göndərilmir; həmin iPhone-un Safari/PWA yaddaşında qalır.
+- Başqa cihazla avtomatik sinxronlaşma yoxdur.
+- Safari məlumatlarını silmək və ya cihazı dəyişmək məlumatları itirə bilər. Müntəzəm olaraq tətbiqdəki “Yedəklə” düyməsi ilə JSON faylı saxla; “Bərpa et” ilə geri yüklə.
+
+Qeyd:
+- Əvvəlki yüklənmiş HTML faylında yalnız sayğac, gəlir/xərc və qrafik var idi. Bu versiya mövcud qiymətləri və əlavə etdiyimiz modelləri, 72 saatlıq sifariş izləməsini, statusları, yerli yaddaşı və yedəkləməni birləşdirir.

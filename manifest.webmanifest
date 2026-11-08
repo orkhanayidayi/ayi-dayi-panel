@@ -1,0 +1,21 @@
+{
+  "name": "Ayı Dayı Satış Paneli",
+  "short_name": "Ayı Dayı",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1118",
+  "theme_color": "#101820",
+  "description": "Şəxsi, offline satış və sifariş izləmə paneli",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
