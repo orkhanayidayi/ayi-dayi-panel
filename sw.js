@@ -1,4 +1,4 @@
-const CACHE = 'ayi-dayi-v1';
+const CACHE = 'ayi-dayi-v2';
 const FILES = [
   './',
   './index.html',
